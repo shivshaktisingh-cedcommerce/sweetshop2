@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Yanone+Kaffeesatz&display=swap');
+#homepage_main_div_id{
+    width:100%;
+}
+#three_categories_div_id{
+    width:90%;
+    display:flex;
+    justify-content:space-between;
+    margin:auto;
+    margin-top:5vw;
+}
+#category1_div_id{
+    width:30%;
+    background-color: #EEEEEC;
+    padding:0.5vw;
+}
+#category2_div_id{
+    width:30%;
+    background-color: #EEEEEC;
+    padding:0.5vw;
+
+    
+}
+#category3_div_id{
+    width:30%;
+    background-color: #EEEEEC;
+    padding:0.5vw;
+
+}
+#category_image_id{
+    width:100%;
+}
+.p1_id{
+    font-size:2.7vw;
+    font-weight:bold;
+    font-family: 'DynaPuff', cursive;
+}
+.p2_id{
+    font-size:2.6vw;
+    font-weight:500;
+    letter-spacing: 2px;
+}
+#daily_offers_div_id{
+    width:90%;
+    display:flex;
+    margin:auto;
+    margin-top:6vw;
+    padding:1vw;
+    background-color: #CED3D9;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+#image_div_id_daily_offers{
+  width:40%;
+}
+#daily_offers_image_id{
+    width:100%;
+}
+#daily_offers_content{
+    width:60%;
+    display:flex;
+    flex-direction: column;
+}
+#p1_offer{
+    color:black;
+    font-size:3.5vw;
+    font-weight:600;
+}
+#p2_offer{
+    color:black;
+    font-size:2.5vw;
+    font-weight:400;
+    font-family: 'DynaPuff', cursive;
+    letter-spacing: 2px;
+    padding:2vw;
+    padding-top:1vw;
+}
+#cups_of_cuteness_div_id{
+    width:90%;
+    display:flex;
+    flex-wrap: wrap;
+    margin:auto;
+    justify-content: space-between;
+    margin-top:6vw;
+    padding:1vw;
+  
+}
+.cups_of_cuteness_div_id1{
+    width:25%;
+    margin-top:2vw;
+    background-color: #F0F4F7;
+    border-radius:5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding:1vw;  
+}
+
+
+.cups_of_cuteness_image_id1{
+    width:100%;
+}
+.cups_of_cuteness_content_id1{
+    font-size:2vw;
+    font-weight:bold;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+@media only screen and (max-width: 600px) {
+    #homepage_main_div_id{
+        width:100%;
+    }
+    #three_categories_div_id{
+        width:90%;
+        display:flex;
+        justify-content:space-between;
+        margin:auto;
+        margin-top:5vw;
+    }
+    #category1_div_id{
+        width:30%;
+        background-color: #EEEEEC;
+        padding:0.5vw;
+    }
+    #category2_div_id{
+        width:30%;
+        background-color: #EEEEEC;
+        padding:0.5vw;
+    
+        
+    }
+    #category3_div_id{
+        width:30%;
+        background-color: #EEEEEC;
+        padding:0.5vw;
+    
+    }
+    #category_image_id{
+        width:100%;
+    }
+    .p1_id{
+    font-size:3.7vw;
+    font-weight:bold;
+    font-family: 'DynaPuff', cursive;
+    }
+    .p2_id{
+        font-size:3.6vw;
+        font-weight:500;
+        letter-spacing: 2px;
+    }
+    #daily_offers_div_id{
+        width:90%;
+        display:flex;
+        margin:auto;
+        margin-top:6vw;
+        padding:1vw;
+        background-color: #CED3D9;
+        
+    }
+    #image_div_id_daily_offers{
+      width:40%;
+    }
+    #daily_offers_image_id{
+        width:100%;
+      height: 100%;
+    }
+    #daily_offers_content{
+        width:60%;
+        display:flex;
+        flex-direction: column;
+    }
+    #p1_offer{
+        color:black;
+        font-size:4.5vw;
+        font-weight:600;
+    }
+    #p2_offer{
+        color:black;
+        font-size:3.5vw;
+        font-weight:400;
+        font-family: 'DynaPuff', cursive;
+        letter-spacing: 2px;
+        padding:2vw;
+        padding-top:0vw;
+    }
+    #cups_of_cuteness_div_id{
+        width:90%;
+        display:flex;
+        flex-wrap: wrap;
+        margin:auto;
+        justify-content: space-between;
+        margin-top:6vw;
+        padding:1vw;
+      
+    }
+    .cups_of_cuteness_div_id1{
+        width:25%;
+        margin-top:2vw;
+        background-color: #F0F4F7;
+        border-radius:5px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        padding:1vw;
+    }
+    .cups_of_cuteness_image_id1{
+        width:100%;
+    }
+    .cups_of_cuteness_content_id1{
+        font-size:4vw;
+        letter-spacing: 2px;
+        font-weight:bold;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+    
+    }  
+}

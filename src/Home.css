@@ -9,7 +9,7 @@
     display:flex;
     justify-content:space-between;
     margin:auto;
-    margin-top:5vw;
+    margin-top:3vw;
 }
 #category1_div_id{
     width:30%;
@@ -46,7 +46,7 @@
     width:90%;
     display:flex;
     margin:auto;
-    margin-top:6vw;
+    margin-top:3vw;
     padding:1vw;
     background-color: #CED3D9;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -74,8 +74,7 @@
     font-weight:400;
     font-family: 'DynaPuff', cursive;
     letter-spacing: 2px;
-    padding:2vw;
-    padding-top:1vw;
+    margin-top: 0%;
 }
 #cups_of_cuteness_div_id{
     width:90%;
@@ -83,8 +82,9 @@
     flex-wrap: wrap;
     margin:auto;
     justify-content: space-between;
-    margin-top:6vw;
+    /* margin-top:6vw; */
     padding:1vw;
+    margin-bottom: 2vw;;
   
 }
 .cups_of_cuteness_div_id1{
@@ -94,6 +94,8 @@
     border-radius:5px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding:1vw;  
+    position:relative;
+   
 }
 
 
@@ -104,8 +106,254 @@
     font-size:2vw;
     font-weight:bold;
     font-family: 'Yanone Kaffeesatz', sans-serif;
+    letter-spacing: 2px;
 
 }
+#main_products_div_id{
+    width:95%;
+    margin:auto;
+    margin-top:5vw;
+    margin-bottom:5vw;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+#category_to_select_div{
+    width:25%;
+    background-color: #F0ECEA;
+    text-align: left;
+    /* max-height:40vh; */
+    height: min-content;
+    padding-bottom:2vw;
+    border-radius:5px;
+    position:sticky;top:0;
+}
+#product_category_div_id{
+    width:65%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+
+}
+#p_category_id{
+    font-size:2vw;
+    font-weight:bold;
+    color:#AF918D;
+    padding-left:4vw;
+}
+.p_id_checkbox{
+    padding-left:4vw;
+    font-size:2vw;
+}
+.p_id_select{
+    padding-left:4vw;
+    font-size:2vw;
+}
+#price{
+    width:15vw;
+    min-height:3vw;
+    font-size:2vw;
+    border-radius:15px;
+    text-align: center;
+    background-color:white;
+}
+
+
+.p_id_checkbox > .checkbox_id{
+    width:1.5vw !important;
+    height:1.5vw !important;
+    padding:1vw;
+   
+}
+.price_item_class{
+    font-size:2vw;
+    color:#b38883;
+}
+.add_to_cart_btn_p_class{
+  
+    
+}
+.add_to_cart_btn_class{
+    width:100%;
+    min-height:3vw;
+    font-size:2vw;
+    background-color: #CED3D9;
+    border-radius: 5px;
+    border:none;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    float: inline-end;
+    position:absolute;
+    bottom:0;
+    left:0;
+   
+}
+.add_to_cart_btn_class:hover{
+    background-color: #AF918D;
+}
+.cart_icon{
+    font-size:2vw;
+    color: black;
+}
+.new_navbar{
+    width:100%;
+    height:5vw;
+    position:sticky;
+    top:0;
+    display:flex;
+    align-items: center;
+    margin:auto;
+    z-index: 2;
+    background-color: #b38883;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    opacity:0.8;
+
+}
+#search-box{
+    width:47%;
+    min-height:2.3vw;
+    display:flex;
+    border-radius:10px;
+    align-items:center;
+    border:2px solid #41210A;
+    margin-left:10vw;
+    background-color: white;
+    
+}
+.searchText{
+    width:89%;
+    min-height:2.3vw;
+    padding-left:1vw;
+    border-radius:10px;
+    border:none;
+    outline:none;
+    font-size:1.7vw;
+    font-weight:bolld;
+    letter-spacing:2px;
+}
+#search_icon{
+    font-size:1.5vw;
+}
+#cart_products{
+    width:50vw;
+    margin:auto;
+}
+#repetitive_cart_div{
+    width:90%;
+    margin:auto;
+    
+    display:flex;
+}
+#cart_image_div{
+    width:15%;
+    padding:1vw;
+}
+#cart_image_id{
+    width:100%;
+}
+#cart_product_title{
+    width:10vw;
+    font-size:1.5vw;
+    margin:0;
+}
+#button_div_id{
+    width:100%;
+    display: flex;
+    margin:auto;
+    margin-left:3vw;
+    align-items: center;;
+}
+.increment_btn_id_add{
+    background-color:#b38883;
+    padding:1vw;
+    font-size:2vw;
+    font-weight:bold;
+    border:none;
+    border-radius:5px;
+}
+.increment_btn_id_quant{
+    background-color:#D7DBE0;
+    padding:1vw;
+    font-size:2vw;
+    font-weight:bold;
+    border:none;
+    border-radius:5px;
+    margin-left: 1vw;
+}
+.increment_btn_id_decrease{
+    background-color:#9c9594;
+    padding:1vw;
+    font-size:2vw;
+    font-weight:bold;
+    border:none;
+    border-radius:5px;
+    margin-left: 1vw;
+}
+#amt_p_id{
+    font-size:1.5vw;
+    font-weight:bold;
+    margin-left:2vw;
+}
+#total_amount{
+    width:100%;
+    text-align: center;
+    font-size:1.8vw;
+    font-weight:bold;
+}
+#p_amt{
+    width:100%;
+    text-align: center;;
+}
+#checkout_btn{
+    width:30%;
+    margin:auto;
+    min-height:3vw;
+    font-size:1.8vw;
+    font-weight:500;
+    border-radius:7px;
+    border:none;
+    background-color: #33536F;
+    color:white;
+}
+#close_drawer_btn_id{
+    width:5vw;
+    font-size:2vw;
+    font-weight:bold;
+    margin:1vw;
+    background-color: brown;
+}
+.del_icon{
+    margin-left:2vw;
+    font-size:2vw;
+    color:rgb(158, 65, 65)
+}
+
+#final_amount_id{
+    width:100%;
+    text-align: center;
+    font-size:2vw;
+    color:#33536F;
+}
+#gif_div_id{
+    width:100%;
+    margin:auto;
+    text-align: center;
+
+}
+#gif_id{
+    width:80%;
+    margin:auto;
+    
+}
+#empty_cart_message{
+    width:100%;
+    text-align: center;
+    color:rgb(100, 40, 40);
+    font-size:3vw;
+    font-weight:bold;
+}
+
+
 @media only screen and (max-width: 600px) {
     #homepage_main_div_id{
         width:100%;
@@ -162,7 +410,7 @@
     }
     #daily_offers_image_id{
         width:100%;
-      height: 100%;
+        height:100%;
     }
     #daily_offers_content{
         width:60%;
@@ -180,8 +428,7 @@
         font-weight:400;
         font-family: 'DynaPuff', cursive;
         letter-spacing: 2px;
-        padding:2vw;
-        padding-top:0vw;
+        margin-top: 0%;
     }
     #cups_of_cuteness_div_id{
         width:90%;
@@ -211,4 +458,48 @@
         font-family: 'Yanone Kaffeesatz', sans-serif;
     
     }  
+    #main_products_div_id{
+        width:95%;
+        margin:auto;
+        margin-top:5vw;
+        margin-bottom:5vw;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: space-between;
+    }
+    #category_to_select_div{
+        width:30%;
+        background-color: #F0ECEA;
+        text-align: left;
+        /* max-height:40vh; */
+        height: min-content;
+        padding-bottom:2vw;
+        border-radius:5px;
+    }
+    #product_category_div_id{
+        width:65%;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: space-between;
+    
+    }
+    #p_category_id{
+        font-size:4vw;
+        font-weight:bold;
+        color:#b38883;
+        padding-left:4vw;
+    }
+    .p_id_checkbox{
+        padding-left:4vw;
+        font-size:3.5vw;
+    }
+ 
+    
+    
+    .p_id_checkbox > .checkbox_id{
+        width:2.5vw !important;
+        height:2.5vw !important;
+        padding:1vw;
+       
+    }
 }

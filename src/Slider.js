@@ -29,22 +29,22 @@ export default function Slider() {
     const moveDot = index => {
         setSlideIndex(index)
     }
-  interval =  setInterval(()=>{
-        if(slideIndex !== dataSlider.length){
-            setSlideIndex(slideIndex + 1)
-        } 
-        else if (slideIndex === dataSlider.length){
-            setSlideIndex(1)
-        }
-        else if(slideIndex !== 1){
-            setSlideIndex(slideIndex - 1)
-        }
-        else if (slideIndex === 1){
-            setSlideIndex(dataSlider.length)
-        }
-        clearInterval(interval)
+//   interval =  setInterval(()=>{
+//         if(slideIndex !== dataSlider.length){
+//             setSlideIndex(slideIndex + 1)
+//         } 
+//         else if (slideIndex === dataSlider.length){
+//             setSlideIndex(1)
+//         }
+//         else if(slideIndex !== 1){
+//             setSlideIndex(slideIndex - 1)
+//         }
+//         else if (slideIndex === 1){
+//             setSlideIndex(dataSlider.length)
+//         }
+//         clearInterval(interval)
 
-    },5000)
+//     },5000)
 
     return (
         <div className="container-slider">
@@ -57,7 +57,6 @@ export default function Slider() {
                         <img 
                         src={process.env.PUBLIC_URL + `/Imgs/img${index + 1}.jpg`} alt="" 
                         />
-        
                     </div>
                 )
             })}
@@ -72,6 +71,7 @@ export default function Slider() {
                     ></div>
                 ))}
             </div>
+            <a href="#main_products_div_id" id="order_now_p_id">Order Now <i class="fa-solid fa-arrow-down" style={{marginLeft:"1vw"}}></i></a>
         </div>
     )
 }

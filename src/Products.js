@@ -74,13 +74,13 @@ export default function Products() {
     <div id="main_products_div_id">
       <div id="category_to_select_div">
         <p id="p_category_id">Categories</p>
-        <p className="p_id_checkbox"><input type="checkbox" id="checkbox_id" defaultChecked onChange={checkfun} name='laddu'/>Laddoo</p>
-        <p className="p_id_checkbox"><input type="checkbox" id="checkbox_id" onChange={checkfun} name="barfi"/>Barfi</p>
-        <p className="p_id_checkbox"><input type="checkbox" id="checkbox_id" onChange={checkfun} name='gulab'/>Gulab Jamun</p>
-        <p className="p_id_checkbox"><input type="checkbox" id="checkbox_id" onChange={checkfun} name="kaju"/>Kaju Mithai</p>
-        <p className="p_id_checkbox"><input type="checkbox" id="checkbox_id" onChange={checkfun} name="modak"/>Modak</p>
-        <p className="p_id_checkbox"><input type="checkbox" id="checkbox_id" onChange={checkfun} name='rasgulla'/>Rasgulla</p>
-        <p className="p_id_checkbox"><input type="checkbox" id="checkbox_id" onChange={checkfun} name='halwa'/>Halwa</p>
+        <p className="p_id_checkbox"><input type="checkbox" className="checkbox_id" defaultChecked onChange={checkfun} name='laddu'/>Laddoo</p>
+        <p className="p_id_checkbox"><input type="checkbox" className="checkbox_id" onChange={checkfun} name="barfi"/>Barfi</p>
+        <p className="p_id_checkbox"><input type="checkbox" className="checkbox_id" onChange={checkfun} name='gulab'/>Gulab Jamun</p>
+        <p className="p_id_checkbox"><input type="checkbox" className="checkbox_id" onChange={checkfun} name="kaju"/>Kaju Mithai</p>
+        <p className="p_id_checkbox"><input type="checkbox" className="checkbox_id" onChange={checkfun} name="modak"/>Modak</p>
+        <p className="p_id_checkbox"><input type="checkbox" className="checkbox_id" onChange={checkfun} name='rasgulla'/>Rasgulla</p>
+        <p className="p_id_checkbox"><input type="checkbox" className="checkbox_id" onChange={checkfun} name='halwa'/>Halwa</p>
 
       </div>
       <div id="product_category_div_id">

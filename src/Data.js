@@ -62,7 +62,9 @@ export const data ={
             "title":"Rasmalai",
             "listprice":"1300",
             "selling":"1100",
-            "quantity":1  
+            "quantity":1,
+            "total":"1100"  
+  
         },
         {
             "item":9,
@@ -70,7 +72,9 @@ export const data ={
             "title":"Kalakand",
             "listprice":"900",
             "selling":"700",
-            "quantity":1  
+            "quantity":1,
+            "total":"700"  
+  
         },
 
     ],
@@ -81,7 +85,9 @@ export const data ={
             "title":"Ragi coconut ladoo",
             "listprice":"1200",
             "selling":"900",
-            "quantity":1  
+            "quantity":1 ,
+            "total":"900"  
+ 
 
         },
         {
@@ -90,7 +96,9 @@ export const data ={
             "title":"Besan ladoo",
             "listprice":"600",
             "selling":"400",
-            "quantity":1  
+            "quantity":1 ,
+            "total":"400"  
+ 
 
         },
         {
@@ -99,7 +107,9 @@ export const data ={
             "title":"Boondi ladoo",
             "listprice":"700",
             "selling":"500",
-            "quantity":1  
+            "quantity":1 ,
+            "total":"500"  
+ 
 
         },
         {
@@ -108,7 +118,9 @@ export const data ={
             "title":"Rava ladoo",
             "listprice":"650",
             "selling":"450",
-            "quantity":1  
+            "quantity":1 ,
+            "total":"450"  
+ 
 
         },
         {
@@ -117,7 +129,9 @@ export const data ={
             "title":"Til ladoo",
             "listprice":"950",
             "selling":"650",
-            "quantity":1  
+            "quantity":1,
+            "total":"650"  
+  
 
         },
         {
@@ -126,7 +140,9 @@ export const data ={
             "title":"Nariyal ladoo",
             "listprice":"1050",
             "selling":"850",
-            "quantity":1  
+            "quantity":1,
+            "total":"850"  
+  
 
         },
         {
@@ -135,7 +151,9 @@ export const data ={
             "title":"Dry Fruit Ladoo",
             "listprice":"650",
             "selling":"450",
-            "quantity":1  
+            "quantity":1 ,
+            "total":"450"  
+ 
 
         },
         {
@@ -144,7 +162,9 @@ export const data ={
             "title":"Murmura ladoo",
             "listprice":"950",
             "selling":"650",
-            "quantity":1  
+            "quantity":1 ,
+            "total":"650"  
+ 
 
         },
         {
@@ -153,155 +173,178 @@ export const data ={
             "title":"Gond ladoo",
             "listprice":"1050",
             "selling":"850",
-            "quantity":1  
+            "quantity":1 ,
+            "total":"850"  
+ 
 
         }
     ],
     "barfi":[
         {
             "item":"barfi1",
-            "image":"ragiladu.png",
+            "image":"besanburfi.jpg",
             "title":"Besan barfi",
             "listprice":"1200",
             "selling":"900",
-            "quantity":1  
+            "quantity":1 ,
+            "total":"900"  
+ 
 
         },
         {
             "item":"barfi2",
-            "image":"besanladu.png",
+            "image":"badamburfi.png",
             "title":"Badam barfi",
             "listprice":"600",
             "selling":"400",
-            "quantity":1  
+            "quantity":1 ,
+            "total":"400"  
+ 
 
         },
         {
             "item":"barfi3",
-            "image":"laddu.png",
+            "image":"coconutburfi.jpg",
             "title":"Coconut barfi",
             "listprice":"700",
             "selling":"500",
-            "quantity":1  
+            "quantity":1 ,
+            "total":"500"  
+ 
 
         },
         {
             "item":"barfi4",
-            "image":"rava-laddu.jpg",
+            "image":"chocolatebarfi.png",
             "title":"Chocolate barfi",
             "listprice":"650",
             "selling":"450",
-            "quantity":1  
+            "quantity":1 ,
+            "total":"450"  
+ 
 
         },
         {
             "item":"barfi5",
-            "image":"tilladu.jpg",
+            "image":"gajarburfi.png",
             "title":"Gajar barfi",
             "listprice":"950",
             "selling":"650",
-            "quantity":1  
+            "quantity":1 ,
+            "total":"650"  
+ 
 
         },
         {
             "item":"barfi6",
-            "image":"nariyalladu.png",
+            "image":"ghiyaburfi.jpg",
             "title":"Ghiya barfi",
             "listprice":"1050",
             "selling":"850",
-            "quantity":1  
-
-        },
-        {
-            "item":"barfi7",
-            "image":"dryfruitladu.png",
-            "title":"Jackfruit barfi",
-            "listprice":"650",
-            "selling":"450",
-            "quantity":1  
+            "quantity":1 ,
+            "total":"850"  
+ 
 
         },
         {
             "item":"barfi8",
-            "image":"murmuraladu.jpg",
+            "image":"mawaburfi.png",
             "title":"Mawa barfi",
             "listprice":"950",
             "selling":"650",
-            "quantity":1  
+            "quantity":1,
+            "total":"650"  
+  
 
         },
         {
             "item":"barfi9",
-            "image":"gondladu.jpg",
+            "image":"malaiburfi.png",
             "title":"Malai barfi",
             "listprice":"1050",
             "selling":"850",
-            "quantity":1  
+            "quantity":1 ,
+            "total":"850"  
+ 
 
         },
         {
             "item":"barfi9",
-            "image":"gondladu.jpg",
+            "image":"kalakandburfi.jpg",
             "title":"Kalakand",
             "listprice":"1050",
             "selling":"850",
-            "quantity":1  
+            "quantity":1 ,
+            "total":"850"  
+ 
 
         }
     ],
     "modak":[
         {
             "item":"modak1",
-            "image":"ragiladu.png",
+            "image":"ukaidichemodak.jpg",
             "title":"Ukaidiche modak",
             "listprice":"1200",
             "selling":"900",
-            "quantity":1  
+            "quantity":1 ,
+            "total":"900"  
+ 
 
         },
         {
             "item":"modak2",
-            "image":"besanladu.png",
+            "image":"chanadalmodak.jpg",
             "title":"Chana dal modak",
             "listprice":"600",
             "selling":"400",
-            "quantity":1  
+            "quantity":1 ,
+            "total":"400"  
+ 
 
         },
         {
             "item":"modak3",
-            "image":"laddu.png",
+            "image":"rawamodak.jpg",
             "title":"Rawa modak",
             "listprice":"700",
             "selling":"500",
-            "quantity":1  
+            "quantity":1 ,
+            "total":"500"  
+ 
 
         },
         {
             "item":"modak4",
-            "image":"rava-laddu.jpg",
+            "image":"chocolatemodak.jpg",
             "title":"Chocolate modak",
             "listprice":"650",
             "selling":"450",
-            "quantity":1  
+            "quantity":1,
+            "total":"450"  
+  
 
         },
         {
             "item":"modak5",
-            "image":"tilladu.jpg",
+            "image":"dryfruits.jpg",
             "title":"Dry fruit modak",
             "listprice":"950",
             "selling":"650",
-            "quantity":1  
+            "quantity":1,
+            "total":"650"  
+  
 
         },
         {
             "item":"modak6",
-            "image":"nariyalladu.png",
+            "image":"kesarmodak.jpg",
             "title":"Kesari modak",
             "listprice":"1050",
             "selling":"850",
-            "quantity":1  
+            "quantity":1 ,
+            "total":"850"  
+ 
 
         },
       
@@ -313,7 +356,9 @@ export const data ={
             "title":"Gulab jamun",
             "listprice":"1200",
             "selling":"900",
-            "quantity":1  
+            "quantity":1 ,
+            "total":"900"  
+ 
 
         },
        
@@ -321,47 +366,57 @@ export const data ={
     "kaju":[
         {
             "item":"kaju1",
-            "image":"gulab.png",
+            "image":"katli.png",
             "title":"Kaju katli",
             "listprice":"1200",
-            "selling":"900",
-            "quantity":1  
+            "selling":"1000",
+            "quantity":1 ,
+            "total":"1000"  
+ 
 
         },
         {
             "item":"kaju2",
-            "image":"gulab.png",
+            "image":"kajupista.png",
             "title":"Kaju Pista Barfi.",
             "listprice":"1200",
-            "selling":"900",
-            "quantity":1  
+            "selling":"1150",
+            "quantity":1 ,
+            "total":"1150"  
+ 
 
         },
         {
             "item":"kaju3",
-            "image":"gulab.png",
+            "image":"kajuroll.png",
             "title":"Kaju Roll",
             "listprice":"1200",
-            "selling":"900",
-            "quantity":1  
+            "selling":"1100",
+            "quantity":1 ,
+            "total":"1100"  
+ 
 
         },
         {
             "item":"kaju4",
-            "image":"gulab.png",
+            "image":"kajupuri.jpg",
             "title":"Kaju Puri",
             "listprice":"1200",
-            "selling":"900",
-            "quantity":1  
+            "selling":"1200",
+            "quantity":1 ,
+            "total":"1200"  
+ 
 
         },
         {
             "item":"kaju5",
-            "image":"gulab.png",
+            "image":"kajukalash.png",
             "title":"Kaju Kalash",
             "listprice":"1200",
-            "selling":"900",
-            "quantity":1  
+            "selling":"1300",
+            "quantity":1 ,
+            "total":"1300"  
+ 
 
         },
        
@@ -369,29 +424,35 @@ export const data ={
     "rasgulla":[
         {
             "item":"rajbhog1",
-            "image":"gulab.png",
+            "image":"rajbhog.png",
             "title":"Rajbhog",
             "listprice":"1200",
-            "selling":"900",
-            "quantity":1  
+            "selling":"950",
+            "quantity":1,
+            "total":"950"  
+  
 
         },
         {
             "item":"rajbhog2",
-            "image":"gulab.png",
+            "image":"chamcham.png",
             "title":"Cham cham",
             "listprice":"1200",
-            "selling":"900",
-            "quantity":1  
+            "selling":"1050",
+            "quantity":1,
+            "total":"1050"  
+  
 
         },
         {
             "item":"rajbhog3",
-            "image":"gulab.png",
+            "image":"kesar-rasbhari.png",
             "title":"Rasbhari",
             "listprice":"1200",
-            "selling":"900",
-            "quantity":1  
+            "selling":"1000",
+            "quantity":1 ,
+            "total":"1000"  
+ 
 
         },
      
@@ -400,74 +461,78 @@ export const data ={
     "halwa":[
         {
             "item":"halwa1",
-            "image":"gulab.png",
+            "image":"gajarhalwa.jpg",
             "title":"Gajar Halwa",
             "listprice":"1200",
-            "selling":"900",
-            "quantity":1  
+            "selling":"810",
+            "quantity":1 ,
+            "total":"810"  
+ 
 
         },
         {
             "item":"halwa2",
-            "image":"gulab.png",
+            "image":"sujihalwa.jpg",
             "title":"Rava Halwa",
             "listprice":"1200",
-            "selling":"900",
-            "quantity":1  
+            "selling":"1050",
+            "quantity":1 ,
+            "total":"1050"  
+ 
 
         },
         {
             "item":"halwa3",
-            "image":"gulab.png",
+            "image":"laukihalwa.webp",
             "title":"Lauki halwa",
             "listprice":"1200",
-            "selling":"900",
-            "quantity":1  
+            "selling":"1000",
+            "quantity":1 ,
+            "total":"1000"  
+ 
 
         },
         {
             "item":"halwa4",
-            "image":"gulab.png",
+            "image":"besanhalwa.PNG",
             "title":"Besan halwa",
             "listprice":"1200",
-            "selling":"900",
-            "quantity":1  
+            "selling":"950",
+            "quantity":1,
+            "total":"950"  
+  
 
         },
         {
             "item":"halwa5",
-            "image":"gulab.png",
+            "image":"moongdalhalwa.jpg",
             "title":"Moong halwa",
             "listprice":"1200",
-            "selling":"900",
-            "quantity":1  
+            "selling":"750",
+            "quantity":1 ,
+            "total":"750"  
+
 
         },
         {
             "item":"halwa6",
-            "image":"gulab.png",
-            "title":"Sooji halwa",
+            "image":"badamhalwa.png",
+            "title":"Badam halwa",
             "listprice":"1200",
-            "selling":"900",
-            "quantity":1  
+            "selling":"800",
+            "quantity":1 ,
+            "total":"800"  
+
 
         },
         {
             "item":"halwa7",
-            "image":"gulab.png",
-            "title":"Badam halwa",
-            "listprice":"1200",
-            "selling":"900",
-            "quantity":1  
-
-        },
-        {
-            "item":"halwa8",
-            "image":"gulab.png",
+            "image":"dryfruithalwa.jpg",
             "title":"Fruit halwa",
             "listprice":"1200",
             "selling":"900",
-            "quantity":1  
+            "quantity":1,
+            "total":"900"  
 
         },
      

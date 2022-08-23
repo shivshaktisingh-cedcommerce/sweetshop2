@@ -7,3 +7,7 @@ body{
   opacity:0.8;
   min-height:100vh;
 }
+
+html {
+  scroll-behavior: smooth;
+}
